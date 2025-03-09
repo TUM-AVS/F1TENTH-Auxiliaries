@@ -1,11 +1,15 @@
 # 3D LiDAR SLAM and Localization on F1TENTH
-This page contains the drivers necessary to operate the F1Tenth/ RoboRacer cars with a 3D LiDAR sensor from Livox [Livox MID-360 product page](https://www.livoxtech.com/de/mid-360).
-In addition, we provide a 3D LiDAR SLAM, tested and evaluated to work with the LiDAR.
-This repository des not manipulate the function of the original workspace.
-Changing between the 2D and 3D sensor is therefore as simple as changing you launch command.
+This repository provides the necessary drivers to operate the F1Tenth/RoboRacer cars equipped with the Livox MID-360 3D LiDAR sensor ([Livox MID-360 product page](https://www.livoxtech.com/de/mid-360)). Additionally, we include a robust and tested 3D LiDAR SLAM package specifically validated for use with this LiDAR.
 
-Next steps:
-- We will release a small test dataset from the Livox LiDAR in May 2025, allowing teams to evaluate the performance before receiving their sensors.
+The provided setup is designed not to interfere with your existing workspace. This means switching between the original 2D sensor and the new 3D sensor is as easy as modifying your launch command.
+
+The following instructions where tested and verifies on the following hard- and software on the 10th of March 2025
+
+- Jetson Orin Nano 8GB Development Kit
+- Jetpack 5.1.2
+
+**Upcoming:**
+- We plan to release a small test dataset from the Livox LiDAR sensor in May 2025, allowing teams to evaluate performance prior to receiving their sensors.
 ## Installation - Livox Driver
 
 1. Create a new workspace for this project, add a `src` directory and clone this repository into it:
