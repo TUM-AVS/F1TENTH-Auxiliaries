@@ -68,9 +68,9 @@ The topics `map, path` and `current_pose` are available in `rviz2` for visualiza
 ## Configuration
 Config files are available in `lidarslam_ros2/lidarslam/param/lidarslam.yaml` for SLAM and `scanmatcher_custom/param/mapping_robot.yaml` for Localization. For Information about configs see `lidarslam_ros2/README.md`.
 
-## 
+## Acknowledgements
 
-The TUM F1Tenth project is lead by Felix Jahncke [Website](https://www.mos.ed.tum.de/en/avs/team/felix-jahncke/).
+The TUM F1Tenth project is lead by Felix Jahncke ([Website](https://www.mos.ed.tum.de/en/avs/team/felix-jahncke/)).
 
-We thank Moritz Wagner, Ahmad Amine [Website](https://ahmadamine998.github.io/), and Rahul Mangharam [Website](https://www.seas.upenn.edu/~rahulm/) for their contributions.
+We thank Moritz Wagner, Ahmad Amine ([Website](https://ahmadamine998.github.io/)), and Rahul Mangharam ([Website](https://www.seas.upenn.edu/~rahulm/)) for their contributions.
 
