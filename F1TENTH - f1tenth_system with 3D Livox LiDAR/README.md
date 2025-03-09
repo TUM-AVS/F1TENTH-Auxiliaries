@@ -1,7 +1,10 @@
-# 3D LiDAR SLAM and Localizaion on F1TENTH
-ROS2 Packages and requirements for 3D LiDAR Localization and SLAM on the F1TENTH Platform with the Livox MID360 LiDAR.
+# 3D LiDAR SLAM and Localization on F1TENTH
+This page contains the drivers necessary to operate the F1Tenth/ RoboRacer cars with a 3D LiDAR sensor from Livox [Livox MID-360 product page](https://www.livoxtech.com/de/mid-360).
+In addition, we provide a 3D LiDAR SLAM, tested and evaluated to work with the LiDAR.
 
-## Installation
+Next steps:
+- We will release a small test dataset from the Livox LiDAR in May 2025, allowing teams to evaluate the performance before receiving their sensors.
+## Installation - Livox Driver
 
 1. Create a new workspace for this project, add a `src` directory and clone this repository into it:
 ```
@@ -24,15 +27,19 @@ colcon build --packages-select f1tenth_stack
 source install/setup.bash
 ```
 
-## Running the Code
+## Running the Code - Livox Driver
 Launch the modified `f1tenth_stack` with
 ```
 cd ~/f1tenth_ws
 source install/setup.bash
 ros2 launch f1tenth_stack bringup_launch_mid360.py
 ```
+## Installation - 3D LiDAR SLAM
 
-\
+Please install the **ROS2 3D LiDAR SLAM** ROS package according to the instructions inside the **lidarslam_ros2** folder.
+
+
+## Running the Code - 3D LiDAR SLAM
 **Note: To transfer maps between Mapping and Localization, the car must start in the same position for when the respective nodes are launched. Depending on the environment, there may be some room for error in initial positioning.**
 ### Mapping
 To run the SLAM Mapping Task and generate a Map, run
@@ -54,3 +61,10 @@ The topics `map, path` and `current_pose` are available in `rviz2` for visualiza
 
 ## Configuration
 Config files are available in `lidarslam_ros2/lidarslam/param/lidarslam.yaml` for SLAM and `scanmatcher_custom/param/mapping_robot.yaml` for Localization. For Information about configs see `lidarslam_ros2/README.md`.
+
+## 
+
+The TUM F1Tenth project is lead by Felix Jahncke [Website](https://www.mos.ed.tum.de/en/avs/team/felix-jahncke/).
+
+We thank Moritz Wagner, Ahmad Amine [Website](https://ahmadamine998.github.io/), and Rahul Mangharam [Website](https://www.seas.upenn.edu/~rahulm/) for their contributions.
+
