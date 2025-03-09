@@ -1,6 +1,8 @@
 # 3D LiDAR SLAM and Localization on F1TENTH
 This page contains the drivers necessary to operate the F1Tenth/ RoboRacer cars with a 3D LiDAR sensor from Livox [Livox MID-360 product page](https://www.livoxtech.com/de/mid-360).
 In addition, we provide a 3D LiDAR SLAM, tested and evaluated to work with the LiDAR.
+This repository des not manipulate the function of the original workspace.
+Changing between the 2D and 3D sensor is therefore as simple as changing you launch command.
 
 Next steps:
 - We will release a small test dataset from the Livox LiDAR in May 2025, allowing teams to evaluate the performance before receiving their sensors.
