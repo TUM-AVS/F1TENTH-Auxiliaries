@@ -25,7 +25,7 @@ The following instructions where tested and verifies on the following hard- and 
 ```
 mkdir -p ~/f1tenth_ws_3dlidar/src
 cd ~/f1tenth_ws_3dlidar/src
-git clone https://github.com/TUM-AVS/F1TENTH-Auxiliaries.git
+git clone https://github.com/TUM-AVS/RoboRacer-3DLiDAR.git
 ```
 2. Run `sudo ./install.sh` from this directory. 
 3. Activate the new "Livox" network profile.
