@@ -16,7 +16,8 @@ The following instructions where tested and verifies on the following hard- and 
 ```
 mkdir -p ~/f1tenth_ws_3dlidar/src
 cd ~/f1tenth_ws_3dlidar/src
-git clone git@gitlab.lrz.de:felix-jahncke-students/idp_moritzwagner.git
+git clone https://github.com/TUM-AVS/F1TENTH-Auxiliaries.git
+cd 
 ```
 2. Run `./install.sh` from this directory
 3. Substitute the LiDAR IP in `livox_ros_driver2/config/MID360_config.json` by changing "XX" to the last two digits of the LiDAR Serial Number, which can be found on a QR Code sticker on the back of the device.
