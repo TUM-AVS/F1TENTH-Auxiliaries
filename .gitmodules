@@ -1,0 +1,3 @@
+[submodule "RoboRacer-3DLiDAR"]
+	path = RoboRacer-3DLiDAR
+	url = https://github.com/TUM-AVS/RoboRacer-3DLiDAR.git
