@@ -1,6 +1,9 @@
 # 3D LiDAR SLAM and Localization on F1TENTH
 
-<img src="Livox_F1Tenth_Live.JPG" width="480">
+<p align="center">
+  <img src="Livox_F1Tenth_Live.JPG" width="480">
+</p>
+
 
 This repository provides the necessary drivers to operate the F1Tenth/RoboRacer cars equipped with the Livox MID-360 3D LiDAR sensor ([Livox MID-360 product page](https://www.livoxtech.com/de/mid-360)). Additionally, we include a robust and tested 3D LiDAR SLAM package specifically validated for use with this LiDAR.
 
